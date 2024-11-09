@@ -10,7 +10,7 @@ window.onload = function() {
   pronouns.map(pronoun => {
     adjectives.map(adjective => {
       nouns.map(noun => {
-        console.log("{pronoun}{adjective}{noun}.com");
+        console.log(`{pronoun}{adjective}{noun}.com`);
       });
     });
   });
